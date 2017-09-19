@@ -1,0 +1,3 @@
+#!/bin/bash
+
+su nick -c  $HOME'/config/.config.rc'
