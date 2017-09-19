@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+#No Delay
+#screen -dm -S 'autossh' bash -c 'autossh -M 65500 -o ServerAliveInterval=20 -R 2222:localhost:22 nick@innova'
+
+#Delay
+screen -dm -S 'autossh' bash -c 'sleep 60 && autossh -M 65500 -o ServerAliveInterval=20 -R 2222:localhost:22 nick@nicknothom.com'
